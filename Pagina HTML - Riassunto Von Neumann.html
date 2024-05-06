@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema di Elaborazione e Macchina di Von Neumann</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  margin: 10;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.topic-box {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #66ccff;
+}
+
+p {
+  color: #cccccc;
+}
+
+.highlight {
+  color: #66ccff;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #888888;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="topic-box">
+    <h1>Sistema di Elaborazione</h1>
+    <p>Il <b><u>sistema di elaborazione</u></b> è un insieme di componenti hardware e software che lavorano insieme per eseguire istruzioni, manipolare dati e risolvere problemi.</p>
+  </div>
+
+  <div class="topic-box">
+    <h1>Macchina di Von Neumann</h1>
+    <p>La <b><u>macchina di Von Neumann</u></b> è un'architettura di computer che comprende una unità di elaborazione, una unità di memoria, una unità di input/output e un meccanismo di controllo che coordina le operazioni.</p>
+    <p>Nella macchina di Von Neumann, i programmi e i dati vengono memorizzati nella stessa memoria e sono trattati allo stesso modo. Questo concetto è noto come il <b><u>principio di stored-program</b></u>.</p>
+    <p>Le fasi di funzionamento della macchina di Von Neumann includono il prelievo (fetch), l'interpretazione (decode), l'esecuzione (execute) e lo scrittura (writeback) delle istruzioni.</p>
+  </div>
+
+  <div class="topic-box">
+    <h2>Risposte alle domande dell'unità 1: "Fissa le conoscienze"</h2>
+    <ul><li>Che cos'è la CPU?</li>
+    <p>La CPU è il cervello di un computer, che esegue istruzioni e processa dati per far funzionare il sistema.</p>
+    <li> A che cosa serve la scheda madre?</li>
+    <p>La scheda madre è la "scheletro" del computer, che collega e coordina tutti i componenti hardware, permettendo loro di comunicare e lavorare insieme.</p>
+    <li> Che legame c'è tra CPU e microprocessore?</li>
+    <p>Il microprocessore è una parte centrale della CPU, responsabile dell'esecuzione delle istruzioni e delle operazioni di base di un computer.</p>
+    <li> Quali operazioni svolge il microprocessore?</li>
+    <p> Il microprocessore esegue istruzioni, elabora dati, gestisce operazioni logiche e aritmetiche, controlla i flussi di dati e interagisce con la memoria e i dispositivi di input/output del computer.</p>
+    <li>Che cos'è il clock?</li>
+    <p>Il clock è un segnale che sincronizza le operazioni della CPU e altri componenti del computer, determinando il ritmo delle esecuzioni, misurato in Hz.</p>
+    <li>Quali fattori influenzano la velocità di elaborazione della CPU?</li>
+    <p>La velocità di elaborazione della CPU è influenzata dalla frequenza del clock, dall'architettura della CPU, dalla tecnologia di fabbricazione, dalla dimensione della cache, dal tipo di istruzioni e dall'efficienza del software.</p>
+    <li>A che cosa serve la cache?</li>
+    <p>La cache è una memoria ad alta velocità che memorizza temporaneamente i dati frequentemente utilizzati dalla CPU, migliorando le prestazioni del sistema.</p>
+    <li>Quali bus compongono il System bus?</li>
+    <p>
+Il System bus è composto da tre tipi di bus: il bus dati, il bus indirizzi e il bus di controllo.</p>
+    <li>Che cos'è il DMA?</li>
+    <p>Il DMA (Direct Memory Access) è una tecnologia che permette ai dispositivi hardware di accedere direttamente alla memoria del sistema per trasferire dati, senza coinvolgere direttamente la CPU, migliorando le prestazioni del sistema.</p>
+    <li>Quali periferiche sono collegate al Northbridge?</li>
+    <p>Il Northbridge è collegato alla CPU e gestisce principalmente la comunicazione con la memoria RAM e, in alcuni casi, con la scheda grafica dedicata.</p>
+    <li>Che cos'è il Back Side Bus?</li>
+    <p>Il Back Side Bus (BSB) è un tipo di bus di sistema che collega direttamente la CPU al suo cache esterno, quando presente, migliorando l'accesso rapido e efficiente ai dati.</p>
+    <li>A che cosa serve la memoria cache?</li>
+    <p>La memoria cache serve a memorizzare temporaneamente i dati frequentemente utilizzati dalla CPU, migliorando le prestazioni del sistema riducendo i tempi di accesso alla memoria principale.</p>
+    <li>Che cosa cambia tra i vari livelli di memoria cache?</li>
+    <p>I vari livelli di memoria cache differiscono per dimensioni, velocità e prossimità alla CPU. Livelli inferiori hanno dimensioni ridotte e tempi di accesso veloci, mentre livelli superiori sono più capienti ma più lenti.</p>
+    <li>Con quale criterio sono eliminati i dati della cache?</li>
+    <p>I dati nella cache vengono eliminati seguendo politiche di sostituzione e scrittura, che determinano quali blocchi vengono rimossi quando la cache è piena e come vengono scritti i dati nella memoria principale.</p>
+    <li>Descrivi le strategie <i>write-through</i> e <i> write-back.</i></li>
+    <p>La strategia write-through comporta l'aggiornamento immediato della memoria principale ogni volta che un dato viene scritto nella cache, garantendo coerenza dei dati ma potenzialmente rallentando le prestazioni. La strategia write-back implica l'aggiornamento della memoria principale solo quando un blocco di cache viene sostituito, offrendo prestazioni migliori ma con il rischio di temporanea inconsistenza dei dati tra cache e memoria principale.</p>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Realizzato da Biancospino Federico</p>
+</div>
+
+</body>
+</html>
